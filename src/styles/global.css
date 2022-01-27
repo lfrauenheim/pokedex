@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+ 
+*{
+  margin-top: 0;
+}
+html{
+  background:  #047952;
+}
+main {
+  line-height: 1.5;
+  font-family: 'Caveat', cursive;
+}
+.pokemon{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 960px;
+  margin: 0 auto;
+  gap: 15px;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+}
+
