@@ -11,5 +11,8 @@
     display:flex;
     justify-content: center;
   }
+  h1{
+    text-transform: capitalize;
+  }
   
 </style>

@@ -3,7 +3,7 @@
 </script>
 
 {#if pokemon.id < 899}
-  <a href= "/pokemon/{pokemon.id}">
+  <a sveltekit:prefetch href= "/pokemon/{pokemon.name}">
     <div class="poke-card" >
       <p class="poke-id">#{pokemon.id}</p>
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{pokemon.id}.png" alt="">

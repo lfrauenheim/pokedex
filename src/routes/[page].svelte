@@ -17,7 +17,7 @@ onMount(async () => {
 
 <div class="pokemon">
   {#each $pokemon as pokemon }
-  <Pokemon {pokemon} />
+    <Pokemon {pokemon} />
   {/each}
 </div>
 <PageNav {p}/>
