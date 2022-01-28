@@ -1,13 +1,5 @@
 <script>
-  import {pokemon, getPokemon} from '../stores/pokeStore'
-  import Pokemon from '../components/Pokemon.svelte'
   import Header from '../components/Header.svelte'
-  import {onMount} from 'svelte';
-  
-  onMount(async () => {
-    getPokemon(100)
-  });
-
 </script>
 
 <Header title="Hello and Welcome To My Pokédex"/>
