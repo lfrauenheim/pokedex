@@ -12,7 +12,7 @@
   </ul>
 </div>
 <div class="author">
-  <p><strong>Author:</strong> Lenard Frauenheim <strong>Last Update:</strong> 26.01.2022</p>
+  <p><strong>Author:</strong> Lenard Frauenheim <strong>Last Update:</strong> 30.01.2022</p>
 </div>
 
 
