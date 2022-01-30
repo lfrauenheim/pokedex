@@ -70,7 +70,7 @@
   /**
    * Export to PokemonDetails
    */
-  let details = {
+  export let details = {
     types,
     stats,
     front,

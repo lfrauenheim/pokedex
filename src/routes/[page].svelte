@@ -6,10 +6,10 @@ import Header from '../components/Header.svelte';
 import PageNav from '../components/PageNav.svelte';
 import {onMount} from 'svelte';
 export let p = $page.params.page;
-const offset = p  * 80;
+const offset = p  * 50;
 
 onMount(async () => {
-  getPokemon(80, offset)
+  getPokemon(50, offset)
 });
 </script>
 

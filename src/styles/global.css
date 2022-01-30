@@ -13,8 +13,8 @@ main {
 }
 .pokemon{
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  max-width: 960px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  max-width: 1200px;
   margin: 0 auto;
   gap: 15px;
 }
