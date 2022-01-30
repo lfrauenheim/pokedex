@@ -1,7 +1,7 @@
 <script>
   export let p;
   p = parseInt(p);
-  export const pageMax = Math.floor(898 / 80);
+  export const pageMax = Math.floor(898 / 50);
 </script>
 
 <div class="pagenav" >
