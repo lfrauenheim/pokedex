@@ -2,57 +2,51 @@
   import Header from '../components/Header.svelte'
 </script>
 
-<Header title="Hello and Welcome To My Pokédex"/>
+
+<Header title="Welcome to the pokédex"/>
 <div class="index">
-  <p>On this Site you'll find a Pokédex built with data from the Poké API. 
-  <p>There are currently over 800 Pokémons with images and details available.</p>
-  <div class="link">
-    <a href="/0">Check them out right here</a>
-  </div>
-  <p>If you have any suggestions you can let me know on my Github. Just click the image below.</p>
-  <a href="https://github.com/lfrauenheim/pokedex" target="_blank"> 
-    <img src="./github.png" alt="">
-  </a>
-  
+  <h2>Created with</h2>
+  <ul>
+    <li><a href="https://kit.svelte.dev/" target="_blank">SvelteKit</a></li>
+    <li><a href="https://pokeapi.co/" target="_blank">Poké API</a></li>
+  </ul>
 </div>
+<div class="author">
+  <p><strong>Author:</strong> Lenard Frauenheim <strong>Last Update:</strong> 03.02.2022</p>
+</div>
+
+
 
 <style>
   .index{
     display: block;
-    text-align: center;
-    margin: 40px auto;
-    width: 800px;
+    width: fit-content;
+    margin: 0 auto;
   }
-  p{
-    font-weight: bold;
-    font-size: 26px;
+  .index h2{
+    font-size: 30px;
+  }
+  .index li{
+    font-size: 25px;
   }
   a{
-    font-size: 35px;
+    font-size: 24px;
     font-weight: bold;
     padding: 6px;
     border-radius: 6px;
     color: black;
     margin: 0 auto;
   }
-  .link{
-    margin-bottom: 20px;
-  }
-  .link:hover{
+  li:hover{
     transform: scale(1.05);
-    
   }
-  a:hover{
-    color: crimson;
+  .author{
+    width: 270px;
+    margin: 40px auto;
   }
-  img{
-    max-width: 800px;
-    border-radius: 6px;
+  p{
+  font-size: 26px;
   }
-  
-  
 </style>
-
-
 
 

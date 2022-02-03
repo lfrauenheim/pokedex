@@ -8,9 +8,6 @@
   <div class="link">
     <a href="/0">Pokédex</a> 
   </div>
-  <div class="link">
-    <a href="/about">About</a> 
-  </div>
 </nav>
 
 <style>

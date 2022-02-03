@@ -24,14 +24,14 @@
    */
   const TYPE_COLORS = [
       {color: 'bug', value: 'lightgreen'},
-      {color: 'dark', value: ''},
+      {color: 'dark', value: 'black'},
       {color: 'dragon', value: 'darkmagenta'},
       {color: 'electric', value: 'rgb(219, 152, 7)'},
       {color: 'fairy', value: 'pink'},
       {color: 'fighting', value: 'black'},
       {color: 'fire', value: 'crimson'},
       {color: 'flying', value: 'lightblue'},
-      {color: 'ghost', value: 'purple-700'},
+      {color: 'ghost', value: 'rgb(48, 44, 38)'},
       {color: 'grass', value: 'green'},
       {color: 'ground', value: 'darkgrey'},
       {color: 'ice', value: 'aqua'},
